@@ -1,0 +1,64 @@
+*{
+    font-family: sans-serif;
+    background-color: rgb(194, 180, 180);
+    margin:0;
+}
+header{
+    text-align: center;
+    background-color: rgb(197, 155, 101);
+    font-size: xx-large;
+    padding: 1rem;
+    width:100%;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+
+}
+
+.cal{
+    border: 5px solid #fbfdfe;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 12px rgb(219, 188, 147);
+    background-color: rgb(31, 29, 29);
+    margin-top: 15px;
+}
+
+input{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: right;
+    font-size: 30px;
+    background-color:rgb(128, 232, 233) ;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2%;
+
+}
+
+
+button{
+    width: 60px;
+    height: 60px; 
+    margin: 5px;
+    border-radius: 45%;
+    font-size: 60%;
+    color: azure;
+    background-color: rgb(1, 1, 2);
+    cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+#equal{
+    background-color:orange ;
+}
+
+div{
+    background-color: rgb(31, 29, 29);
+}
